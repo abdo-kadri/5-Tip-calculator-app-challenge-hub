@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+*{
+    margin-top: 5px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: hsl(185deg 41% 84%);
+    box-sizing: border-box;
+}
+h1 {
+    width: 77%;
+    margin: auto;
+    text-align: center;
+    margin: 35px;
+    color: hsl(183deg 100% 15%);
+    letter-spacing: 4px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 77%;
+    min-width: 450px;
+    background-color: hsl(0deg 0% 100%);
+    border-radius: 10px;
+    padding: 13px;
+}
+.secOne{
+width: 50%;
+
+}
+.secTwo{
+    width: 50%;
+    background-color: hsl(183deg 100% 15%);
+    border-radius: 13px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.but-secOne{
+    border: none;
+    background-color:hsl(183deg 100% 15%) ;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
+    width: 75px;
+    font-weight: bold;
+}
+.custom,
+.bill,
+.people{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: hsl(183deg 100% 15%);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+.input{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bill,
+.people{
+    width: 80%;
+    direction: rtl;
+    
+}
+.custom{
+    width: 75px;
+}
+.fas{
+    opacity: 25%;
+}
+.tip,
+.total{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.tip span,
+.total span{
+    color: gray;
+}
+.tip div,
+.total div{
+    color:hsl(172deg 67% 45%) ;
+    font-size: 32px;
+}
+.secTwo button{
+    position:absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: hsl(183deg 100% 15%);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    width: 70%;
+    background-color: hsl(172deg 67% 45%);
+}
