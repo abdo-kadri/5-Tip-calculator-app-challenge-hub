@@ -15,9 +15,8 @@ body {
 }
 h1 {
     width: 77%;
-    margin: auto;
+    margin:35px  auto;
     text-align: center;
-    margin: 35px;
     color: hsl(183deg 100% 15%);
     letter-spacing: 4px;
 }
@@ -55,6 +54,11 @@ width: 50%;
     width: 75px;
     font-weight: bold;
 }
+.but-secOne:hover{
+    background-color:hsl(185, 41%, 84%) ;
+    color:hsl(183deg 100% 15%) ;
+}
+
 .custom,
 .bill,
 .people{
@@ -117,4 +121,7 @@ width: 50%;
     margin: 5px;
     width: 70%;
     background-color: hsl(172deg 67% 45%);
+}
+.secTwo button:hover{
+    background-color: hsl(185, 41%, 84%);
 }
